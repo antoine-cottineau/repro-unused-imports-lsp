@@ -2,7 +2,12 @@
   "$schema": "./node_modules/oxlint/configuration_schema.json",
   "plugins": null,
   "categories": {},
-  "rules": {},
+  "rules": {
+    "no-unused-vars": [
+      "error",
+      { "fix": { "imports": "fix", "variables": "off" } }
+    ]
+	},
   "settings": {
     "jsx-a11y": {
       "polymorphicPropName": null,
