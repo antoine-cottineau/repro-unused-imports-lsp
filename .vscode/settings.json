@@ -1,0 +1,6 @@
+{
+    "oxc.fixKind": "dangerous_fix",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.oxc": "always"
+    }
+}
